@@ -14,14 +14,14 @@ class Galileoctl < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.1/galileoctl-darwin-arm64"
-      sha256 "PLACEHOLDER_DARWIN_ARM64_SHA256"
+      sha256 "ac73036343bdfdae4a8bc7f8abd4d74854cf58fb35987282f6c5c8e0ff895023"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.1/galileoctl-linux-amd64"
-      sha256 "PLACEHOLDER_LINUX_AMD64_SHA256"
+      sha256 "73cbf1c03042f6692be7bc16f07e41abddfe8c77045939d849bf23db48eb96e3"
     end
   end
 
