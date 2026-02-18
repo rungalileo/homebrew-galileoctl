@@ -8,20 +8,20 @@
 class Galileoctl < Formula
   desc "Galileo CLI for quick troubleshooting and log bundle collection"
   homepage "https://github.com/rungalileo/galileoctl"
-  version "v0.0.2"
+  version "v0.0.3"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.2/galileoctl-darwin-arm64"
-      sha256 "bf5170a2d75c63f842090a00ab35e24d6e16a5178dba3ec8227ceb41f4aa4692"
+      url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.3/galileoctl-darwin-arm64"
+      sha256 "82132fc65f24a4f14f938011286d4d91cb899c14401220b1e091d165a625f8d9"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.2/galileoctl-linux-amd64"
-      sha256 "950b2722d25a5c2d6375238efa8dbc7ac81ced90f1e82faf97407e1d1c48c813"
+      url "https://github.com/rungalileo/galileoctl/releases/download/v0.0.3/galileoctl-linux-amd64"
+      sha256 "e4b03d677752092baf340a845ae7ece06de1a6489eae73692cb5e3ba5aa87871"
     end
   end
 
