@@ -39,4 +39,3 @@ class Galileoctl < Formula
     system "#{bin}/galileoctl", "version"
   end
 end
-
